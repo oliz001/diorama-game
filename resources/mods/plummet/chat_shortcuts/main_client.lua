@@ -10,11 +10,6 @@ local function onKeyClicked (keyCode, keyCharacter, keyModifiers)
     elseif keyCode == keyCodes.R then
         dio.clientChat.send (".ready")
         return true
-     
-    elseif keyCode == keyCodes.G then
-        dio.clientChat.send (".join")
-        dio.clientChat.send (".ready")
-        return true
     end      
 
     return false
